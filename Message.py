@@ -20,6 +20,7 @@ class Message:
         for i in self.strings:
             print(i)
         print('')
+        .join(self.string)
 
     def getname(self):
         return(self.name)
